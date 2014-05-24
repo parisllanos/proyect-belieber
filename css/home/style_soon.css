@@ -1,0 +1,106 @@
+@font-face{
+	font-family: 'droid_sansregular';
+    src: url('/css/fonts/DroidSans.eot');
+    src: url('/css/fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/DroidSans.woff') format('woff'),
+         url('/css/fonts/DroidSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'segoe';
+    src: url('/css/fonts/segoepr.eot');
+    src: url('/css/fonts/segoepr.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/segoepr.woff') format('woff'),
+         url('/css/fonts/segoepr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.logo-navbar
+{
+	width: 200px;
+	height: 32px;
+	margin:auto;
+	background-image: url('/images/logo-navbar.png');
+}
+.first
+{
+	margin-top:40px;
+}
+.bgc-celestial
+{
+	background-color: #15b8d5;
+}
+.aux-container
+{
+	height: auto;
+	width: auto;
+	padding: 20px 0;
+}
+.s1
+{
+	outline: 1px solid black;
+}
+.sprofile
+{
+	text-align: center;
+	margin-top: 20px;
+}
+.droid
+{
+	font-family: droid_sansregular;
+}
+.segoe
+{
+	font-family: segoe;
+}
+.color-white
+{
+	color:white;
+}
+#p-name
+{
+	margin: 20px auto 5px auto;
+	font-size: 20px;
+}
+.text
+{
+	text-align: center;
+}
+#fromnow
+{
+	font-size: 23px;
+	margin-top:30px;
+	line-height: 30px
+}
+.color-celestial
+{
+	color:#15b8d5;
+}
+#need
+{
+	margin-top:30px;
+	font-size: 16px;
+}
+.row-social
+{
+	margin-top:30px;
+}
+#pr{
+	overflow: hidden;
+	width: 100px;
+	margin:auto;
+}
+#soon
+{
+	margin-top:20px;
+	font-size: 14px;
+	font-style: italic;
+}
+.logo-footer
+{
+	width: 280px;
+	height: 100px;
+	background-image:url('/images/logo-footer.png');
+	margin:auto;
+}

@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'segoe';
+    src: url('/css/fonts/segoepr.eot');
+    src: url('/css/fonts/segoepr.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/segoepr.woff') format('woff'),
+         url('/css/fonts/segoepr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+	font-family: 'droid_sansregular';
+    src: url('/css/fonts/DroidSans.eot');
+    src: url('/css/fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/DroidSans.woff') format('woff'),
+         url('/css/fonts/DroidSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.droid{
+	font-family:droid_sansregular;
+}
+body
+{
+	background-color: #15b8d5;
+}
+.sg
+{
+	margin: 7px 0px 0px 0px;
+	font-size: 13px !important;
+	font-style: normal;
+}
+.logo
+{
+	background-image: url('/images/logo.png');
+	width: 66px;
+	height: 58px;
+	margin:30px auto 0px auto;
+}
+.intro{
+	max-width: 400px;
+	font-size: 13px;
+	color:white;
+	margin: 10px auto 0px auto;
+	text-align: center;
+	font-style: italic;
+	padding-left:15px;
+	padding-right:15px;
+}
+

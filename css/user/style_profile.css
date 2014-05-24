@@ -1,0 +1,432 @@
+@font-face{
+	font-family: 'droid_sansregular';
+    src: url('/css/fonts/DroidSans.eot');
+    src: url('/css/fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/DroidSans.woff') format('woff'),
+         url('/css/fonts/DroidSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'segoe';
+    src: url('/css/fonts/segoepr.eot');
+    src: url('/css/fonts/segoepr.eot?#iefix') format('embedded-opentype'),
+         url('/css/fonts/segoepr.woff') format('woff'),
+         url('/css/fonts/segoepr.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.droid{
+    font-family: droid_sansregular;
+}
+body
+{
+    background-image: url('/images/back_music1.png');
+}
+.bg-logo
+{
+    background-image: url('/images/logo-navbar.png');
+    background-repeat:no-repeat;
+    background-position:center 0px;
+}
+.navbar
+{
+    font-family: droid_sansregular;
+}
+#syncf{
+    font-size: 13px;
+    margin-left: 3px;
+    margin-right: 6px;
+}
+.popover{
+     font-size: 13px;
+}
+
+.container-page
+{
+    margin-top:60px;
+    padding: 40px;
+    background-color: rgba(250,250,250,.7);
+}
+.span3
+{
+    margin-bottom: 20px;
+}
+.sp{
+    background-color: white;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:2px 2px 0 0;
+    border:1px solid #ccc;
+    width: 218px;
+    -moz-box-shadow:    0px 1px 6px 0px #ccc;
+    -webkit-box-shadow: 0px 1px 6px 0px #ccc;
+    box-shadow:         0px 1px 6px 0px #ccc;
+}
+.first-row
+{
+    margin-top:41px;
+}
+.header-sp
+{
+    background-color: #15b8d5;
+    height: 48px;
+    width: 218px;
+    -webkit-border-radius:2px 2px 0 0;
+    -moz-border-radius:2px 2px 0 0;
+    border-radius:2px 2px 0 0;
+}
+.header-sp a
+{
+    text-decoration:none;
+    color: #555;
+}
+.img-sp-user
+{
+    display: inline-block;
+    margin: 5px 0 0 7px;
+    float: left;
+    max-height: 36px;
+    max-width: 36px;
+}
+.img-sp-group
+{
+    display: block;
+    margin:5px 6px 0px 0px;
+}
+.name-sp-user
+{
+    width: 160px;
+    height: 20px;
+    margin:0 0 0 10px;
+    line-height: 10px;
+    font-family:segoe;
+    font-size: 14px;
+    float: left;
+    color:white;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: white;
+}
+.container-sp-photo
+{
+    background-color: transparent;
+    text-align: center;
+}
+.sp-photo
+{
+    max-width: 218px;
+    max-height: 900px;
+    min-height: 100px;
+    min-width: 218px;
+}
+.sp-container-counts
+{
+    height: 20px;
+    background-color: transparent;
+    width: auto;
+    margin:4px 0 0 0;
+}
+.container-count-heart
+{
+    width: 50px;
+    height: 20px;
+    background-color:transparent;
+    margin: 0px;
+}
+.heart-like
+{
+    color:#15b8d5;
+}
+.container-count-comments
+{
+    width: 50px;
+    height: 20px;
+    background-color:transparent;
+    margin: 0px;
+}
+.sp-text
+{
+    width: 198px;
+    padding:0 10px 0 10px;
+    background-color:transparent;
+    text-align: center;
+    margin: 5px auto 0px auto;
+    font-family: droid_sansregular;
+    font-size: 13px;
+}
+/*Profile public*/
+#header-sp-user
+{
+    background-color: #15b8d5;
+    height: 70px;
+    width: 218px;
+    -webkit-border-radius:2px 2px 0 0;
+    -moz-border-radius:2px 2px 0 0;
+    border-radius:2px 2px 0 0;
+}
+#container-sp-pic-user
+{
+    margin-top:-50px;
+    min-height:40px;
+    width: 218px;
+    text-align: center;
+}
+#img-sp-pic-user
+{
+    max-width: 100px;
+    max-height: 100px;
+}
+#p-sp-name-user
+{
+    width: 180px;
+    margin: 10px auto;
+    font-family:segoe;
+    font-size: 16px;
+    text-align: center;
+}
+.nolink
+{
+    color:#444;
+}
+.nolink:hover{
+    color:#444;
+}
+#sp-user
+{
+    padding-bottom:10px;
+}
+/*Profile private*/
+
+#container_user_message
+{
+    width: 218px;
+}
+#publish_error
+{
+    text-align: center;
+    font-size: 12px;
+    margin: 0px 5px 10px 5px;
+    padding: 5px 0px;
+}
+#user_message
+{
+    width: 180px;
+    height: 70px;
+    display: block;
+    margin: auto
+}
+form
+{
+    margin:0;
+}
+#container-btns
+{
+    width: 195px;
+    margin: auto;
+}
+#bt-sd
+{
+    margin-top:9px;
+}
+#container-btns input[type="text"]
+{
+    margin-top:9px;
+    width: 60px;
+    background-color: transparent;
+    border:transparent;
+    box-shadow:none;
+    font-family: droid_sansregular;
+    font-size: 12px;
+}
+.cl
+{
+    cursor: pointer;
+    padding-bottom: 15px;
+}
+/*MODALS*/
+.modal-petit{
+    /* new custom width */
+    width: 300px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+    margin-left: -150px;
+}
+.container-groups
+{
+    width:250px;
+    background-color:transparent;
+    margin:0 auto 0 auto ;
+}
+.container-group
+{
+     width:250px;
+    background-color: transparent;
+    border-bottom:1px solid #ddd;
+    margin-bottom: 15px;
+}
+.modal-top-group
+{
+    background-color: transparent;
+    width: 250px;
+    height: 50px;
+}
+.img-modal-group
+{
+    display: block;
+    margin: 0px auto;
+    max-width: 36px;
+    max-height: 36px;
+}
+.modal-p-name-group{
+    font-family: droid_sansregular;
+    background-color: transparent;
+    width: 250px;
+    font-size: 13px;
+    color: #15b8d5;
+    text-align: center;
+    margin: 2px auto 0 auto;
+}
+.modal-p-name-group a
+{
+    text-decoration: none;
+    color: #15b8d5;
+}
+.modal-p-name-group a:hover
+{
+    text-decoration: underline;
+}
+.modal-p-desc-group
+{
+    margin: 0px auto;
+    width: 250px;
+    background-color: transparent;
+    text-align: center;
+    font-family: droid_sansregular;
+    font-size: 13px;
+    color:#777;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+/*style modal publish*/
+.modal-header-publish{
+    border-radius:6px 6px 0 0;
+    background-color: #15b8d5;
+}
+.modal-publish-name-user
+{
+    display: inline;
+    font-size: 15px;
+    font-family: segoe;
+    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: white;
+    margin-left: 5px;
+}
+.modal-header-publish img
+{
+    max-height: 50px;
+    max-width: 50px;
+}
+.modal-publish-container-img
+{
+    text-align: center;
+}
+.modal-publish-container-data-count
+{
+    width: 300px;
+    height: 25px;
+    background-color: transparent;
+    margin: 5px auto 0px auto;
+}
+.modal-publish-count-heart
+{
+    width: 50px;
+    height: 20px;
+    background-color:transparent;
+    margin:4px 0 0 0;
+}
+.modal-publish-count-heart:hover
+{
+    cursor: pointer;
+}
+.modal-publish-count-comments
+{
+     width: 50px;
+    height: 20px;
+    background-color:transparent;
+    margin:4px 0 0 0;
+}
+.modal-publish-text-user
+{
+    width: 400px;
+    text-align: center;
+    background-color: transparent;
+    margin:5px auto 0px auto;
+    font-family: droid_sansregular;
+    font-size: 14px;
+    color: #666;
+}
+.modal-publish-container-comments-big
+{
+    width: auto;
+    background-color: transparent;
+}
+.modal-publish-container-comment
+{
+    background-color: transparent;
+    width: 400px;
+    margin:0 auto;
+}
+.ca
+{
+    background-color: #eee !important;
+    padding: 10px 0 5px 0;
+}
+.ca button
+{
+    font-family: droid_sansregular;
+}
+#modal-publish-alert
+{
+    text-align: center;
+    margin-bottom:8px;
+    padding: 3px;
+}
+.modal-publish-textarea
+{
+    float: left;
+    width: auto;
+    height: 30px;
+    background-color: white;
+    margin:0 0 0 10px;
+    width: 295px;
+}
+.modal-publish-img-user-comment
+{
+    float: left;
+    max-width: 50px;
+    max-height: 50px;
+}
+.modal-publish-comment-user
+{
+    width: 300px;
+    background-color: transparent;
+    float: left;
+     margin:0px 0px 0px 10px;
+    font-family: droid_sansregular;
+    font-size: 12px;
+}
+.modal-publish-comment-user span
+{
+    color:#15b8d5;
+}
+#aux
+{
+    width: 1px;
+    height: 1px;
+    background-color: transparent;
+    clear: both;
+}
